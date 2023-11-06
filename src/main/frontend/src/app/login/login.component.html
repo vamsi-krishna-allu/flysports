@@ -1,0 +1,17 @@
+<div class="login-container">
+  <div class="login-box">
+    <h2>Login</h2>
+    <form>
+      <div class="form-group">
+        <input class="textbox" type="text" id="username" placeholder="username" [(ngModel)]="username" required>
+      </div>
+      <div class="form-group">
+        <input class="textbox" type="password" id="password" placeholder="password" [(ngModel)]="password" required>
+      </div>
+      <div class="buttons">
+      <button class="login-btn" (click)="login()">Login</button>
+      <button class="register-btn">Register</button>
+        </div>
+    </form>
+  </div>
+</div>

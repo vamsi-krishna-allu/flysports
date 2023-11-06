@@ -1,0 +1,42 @@
+.footer {
+  background-color: #bbff99;
+background-image: linear-gradient(319deg, #bbff99 0%, #ffec99 37%, #ff9999 100%);
+color: black;
+  padding: 2px 0;
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-icons a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.contact {
+  padding: 1rem;
+  color: black;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.fa {
+  color: black;
+}
